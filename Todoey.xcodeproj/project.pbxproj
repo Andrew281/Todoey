@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09077505224CA66C003311F9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09077504224CA66C003311F9 /* Data.swift */; };
 		09403EAC224BA7D90017506E /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09403EAB224BA7D90017506E /* CategoryViewController.swift */; };
 		09B318782243A8C500FDF5AE /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09B318762243A8C500FDF5AE /* DataModel.xcdatamodeld */; };
 		09D73C44223A35FB00D2B15F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D73C43223A35FB00D2B15F /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09077504224CA66C003311F9 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		09403EAB224BA7D90017506E /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		09B318772243A8C500FDF5AE /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		09D73C40223A35FB00D2B15F /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				09B318762243A8C500FDF5AE /* DataModel.xcdatamodeld */,
+				09077504224CA66C003311F9 /* Data.swift */,
 			);
 			path = "Data Model";
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09403EAC224BA7D90017506E /* CategoryViewController.swift in Sources */,
+				09077505224CA66C003311F9 /* Data.swift in Sources */,
 				09D73C46223A35FB00D2B15F /* TodoListViewController.swift in Sources */,
 				09B318782243A8C500FDF5AE /* DataModel.xcdatamodeld in Sources */,
 				09D73C44223A35FB00D2B15F /* AppDelegate.swift in Sources */,
